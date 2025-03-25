@@ -1,4 +1,4 @@
-set -e
+# set -e
 
 REPO_URL="https://raw.githubusercontent.com/mahadikbs/required-software/main"
 
