@@ -1,4 +1,5 @@
 # Add Docker's official GPG key:
+echo "executing docker.sh"
 sudo apt-get update
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings

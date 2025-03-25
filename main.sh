@@ -1,6 +1,6 @@
 set -e
 
-REPO_URL="https://raw.githubusercontent.com/mahadikbs.ej/required-software/main"
+REPO_URL="https://raw.githubusercontent.com/mahadikbs/required-software/main"
 
 echo "Installing Docker..."
 curl -sSL "$REPO_URL/docker.sh" | bash
