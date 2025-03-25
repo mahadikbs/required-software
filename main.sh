@@ -1,8 +1,7 @@
 # set -e
-
 REPO_URL="https://raw.githubusercontent.com/mahadikbs/required-software/main"
-
 echo "Installing Docker..."
+cat $REPO_URL/docker.sh
 curl -sSL "$REPO_URL/docker.sh" | bash
 
 echo "Installing Kubernetes..."
