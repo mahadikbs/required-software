@@ -1,4 +1,3 @@
-#!/bin/bash
 set -e
 
 REPO_URL="https://raw.githubusercontent.com/mahadikbs.ej/required-software/main"
