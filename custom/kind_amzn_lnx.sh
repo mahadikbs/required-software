@@ -16,8 +16,5 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/kubectl
 
-echo "this is path"
-pwd
-ls
 echo " creating test cluster"
-kind create cluster --name kind-cluster --config custom/kind-config.yaml
+kind create cluster --name kind-cluster --config kind-config.yaml
