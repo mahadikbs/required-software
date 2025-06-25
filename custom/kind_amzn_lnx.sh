@@ -17,4 +17,9 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/kubectl
 
 echo " creating test cluster"
-sudo kind create cluster --name kind-cluster --config kind-config.yaml
+# kind create cluster --name kind-cluster --config kind-config.yaml
+
+until kind create cluster --name kind-cluster --config kind-config.yaml; do
+echo "Retrying kind cluster creation..."
+sleep 5
+done
